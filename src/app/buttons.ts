@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Image } from "./model/image";
 
 @Component({
   selector: 'app-buttons',
@@ -7,17 +8,28 @@ import { Component } from '@angular/core';
   styleUrl: './buttons.css'
 })
 export class Buttons {
+
+  picture: Image;
+  pictures: Image[] = [];
+
+  constructor() {
+    this.picture = new Image();
+    this.pictures.push(this.picture);
+  }
+
+  // Methods to handle button clicks
   newImageFunction() {
-    throw new Error('Method not implemented.');
+    // Show a new image
+
   }
   newFrameFunction() {
-    throw new Error('Method not implemented.');
+    // Show a new frame
   }
   wholeImageFunction() {
-    throw new Error('Method not implemented.');
+    // Show the whole image
   }
   answerFunction() {
-    throw new Error('Method not implemented.');
+    // Show the correct answer
   }
 
 }

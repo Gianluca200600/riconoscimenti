@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
 
 @Component({
@@ -9,9 +10,9 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
   styleUrl: './answer.css'
 })
 export class Answer {
-faPaperPlane = 'paper-plane';
+faPaperPlane = faPaperPlane;
 
-  submitFunction() {
+  submitAnswer() {
     throw new Error('Method not implemented.');
   }
 
