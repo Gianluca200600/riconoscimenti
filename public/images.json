@@ -1,114 +1,142 @@
 [
     {
-        "title": "Autoritratto di Raffaello Sanzio ",
-        "artist": "Raffaello ",
-        "location": "Firenze, Galleria degli Uffizi ",
+        "title": "Autoritratto di Raffaello Sanzio",
+        "artist": "Raffaello",
+        "location": "Firenze, Galleria degli Uffizi",
         "date": "1504-1506",
-        "url": "./img/Autoritratto di Raffaello Sanzio.jpg"
+        "url": "assets/img/AutoritrattoDiRaffaelloSanzio.jpg",
+        "width": 300,
+        "height": 400
     },
 
     {
-        "title": "Sposalizio di Maria Vergine ",
-        "artist": "Raffaello ",
-        "location": "Milano, Pinacoteca Nazionale di Brera ",
-        "date": "1504 ",
-        "url": "./img/Sposalizio di Maria Vergine.jpg"
+        "title": "Sposalizio di Maria Vergine",
+        "artist": "Raffaello",
+        "location": "Milano, Pinacoteca Nazionale di Brera",
+        "date": "1504",
+        "url": "assets/img/SposalizioDiMariaVergine.jpg",
+        "width": 806,
+        "height": 1024
     },
 
     {
-        "title": "Natività della Vergine ",
-        "artist": "Raffaello Vanni ",
-        "location": "Roma, Santa Maria della Pace ",
-        "date": "dopo il 1666 ",
-        "url": "./img/Natività della Vergine.jpg"
+        "title": "Natività della Vergine",
+        "artist": "Raffaello Vanni",
+        "location": "Roma, Santa Maria della Pace",
+        "date": "dopo il 1666",
+        "url": "assets/img/NativitàDellaVergine.jpg",
+        "width": 128,
+        "height": 93
     },
 
     {
-        "title": "Madonna di Pasadena ",
-        "artist": "Raffaello ",
-        "location": "Pasadena, Norton Simon Museum of Art ",
-        "date": "1503 ca. ",
-        "url": "./img/Madonna di Pasadena.jpg"
+        "title": "Madonna di Pasadena",
+        "artist": "Raffaello",
+        "location": "Pasadena, Norton Simon Museum of Art",
+        "date": "1503 ca.",
+        "url": "assets/img/MadonnaDiPasadena.jpg",
+        "width": 2182,
+        "height": 3000
     },
 
     {
-        "title": "Sacra Famiglia con Santa Elisabetta, San Giovannino, e Angeli ",
-        "artist": "Raffaello ",
-        "location": "Parigi, Musée du Louvre ",
-        "date": "1518 ",
-        "url": "./img/Sacra Famiglia con Santa Elisabetta, San Giovannino, e Angeli.jpg"
+        "title": "Sacra Famiglia con Santa Elisabetta, San Giovannino, e Angeli",
+        "artist": "Raffaello",
+        "location": "Parigi, Musée du Louvre",
+        "date": "1518",
+        "url": "assets/img/SacraFamigliaConSantaElisabettaSanGiovanninoEAngeli.jpg",
+        "width": 693,
+        "height": 1024
     },
 
     {
-        "title": "Sacra Famiglia Canigiani ",
-        "artist": "Raffaello ",
-        "location": "Monaco di Baviera, Alte Pinakothek ",
-        "date": "1506-1507 ",
-        "url": "./img/Sacra Famiglia Canigiani.jpg"
+        "title": "Sacra Famiglia Canigiani",
+        "artist": "Raffaello",
+        "location": "Monaco di Baviera, Alte Pinakothek",
+        "date": "1506-1507",
+        "url": "assets/img/SacraFamigliaCanigiani.jpg",
+        "width": 489,
+        "height": 599
     },
 
     {
-        "title": "Madonna di Casa Santi ",
-        "artist": "Raffaello ",
-        "location": "Casa di Raffaello, Urbino ",
-        "date": "1498 ca. ",
-        "url": "./img/Madonna di Casa Santi.jpg"
+        "title": "Madonna di Casa Santi",
+        "artist": "Raffaello",
+        "location": "Casa di Raffaello, Urbino",
+        "date": "1498 ca.",
+        "url": "assets/img/MadonnaDiCasaSanti.jpg",
+        "width": 225,
+        "height": 317
     },
 
     {
-        "title": "Incoronazione della Vergine e Quattro Santi ",
-        "artist": "Raffaello ",
-        "location": "Milano, Pinacoteca Nazionale di Brera ",
-        "date": "1504 ",
-        "url": "./img/Sposalizio di Maria Vergine.jpg"
+        "title": "Incoronazione della Vergine e Quattro Santi",
+        "artist": "Raffaello",
+        "location": "Milano, Pinacoteca Nazionale di Brera",
+        "date": "1504",
+        "url": "assets/img/IncoronazioneDellaVergineEQuattroSanti.jpg",
+        "width": 225,
+        "height": 292
     },
 
     {
-        "title": "Ritratto di Beatrice Cenci ",
-        "artist": "Raffaello (poi Perugino) ",
-        "location": "Perugia, Chiesa di San Severo ",
-        "date": "1505-1508 ca. ",
-        "url": "./img/Ritratto di Beatrice Cenci.jpg"
+        "title": "Ritratto di Beatrice Cenci",
+        "artist": "Raffaello (poi Perugino)",
+        "location": "Perugia, Chiesa di San Severo",
+        "date": "1505-1508 ca.",
+        "url": "assets/img/RitrattoDiBeatriceCenci.jpg",
+        "width": 225,
+        "height": 299
     },
 
     {
-        "title": "Assunzione della Vergine ",
-        "artist": "Guido Reni ",
-        "location": "Pieve di Cento ",
-        "date": "1600 ",
-        "url": "./img/Assunzione della Vergine.jpg"
+        "title": "Assunzione della Vergine",
+        "artist": "Guido Reni",
+        "location": "Pieve di Cento",
+        "date": "1600",
+        "url": "assets/img/AssunzioneDellaVergine.jpg",
+        "width": 225,
+        "height": 316
     },
 
     {
-        "title": "Santa Cecilia e Quattro Santi ",
-        "artist": "Guido Reni ",
-        "location": "Roma, Chiesa di San Luigi dei Francesi ",
-        "date": "1600 ",
-        "url": "./img/Santa Cecilia e Quattro Santi.jpg"
+        "title": "Santa Cecilia e Quattro Santi",
+        "artist": "Guido Reni",
+        "location": "Roma, Chiesa di San Luigi dei Francesi",
+        "date": "1600",
+        "url": "assets/img/SantaCeciliaEQuattroSanti.jpg",
+        "width": 225,
+        "height": 325
     },
 
     {
-        "title": "Martirio di Santa Cecilia ",
-        "artist": "Guido Reni ",
-        "location": "Roma, Basilica di Santa Cecilia in Trastevere ",
-        "date": "1601 ",
-        "url": "./img/Martirio di Santa Cecilia.jpg"
+        "title": "Martirio di Santa Cecilia",
+        "artist": "Guido Reni",
+        "location": "Roma, Basilica di Santa Cecilia in Trastevere",
+        "date": "1601",
+        "url": "assets/img/MartirioDiSantaCecilia.jpg",
+        "width": 45,
+        "height": 79
     },
 
     {
-        "title": "Crocifissione di San Pietro ",
-        "artist": "Guido Reni ",
-        "location": "Roma, Pinacoteca Vaticana ",
-        "date": "1604-1605 ",
-        "url": "./img/Crocifissione di San Pietro.jpg"
+        "title": "Crocifissione di San Pietro",
+        "artist": "Guido Reni",
+        "location": "Roma, Pinacoteca Vaticana",
+        "date": "1604-1605",
+        "url": "assets/img/CrocifissioneDiSanPietro.jpg",
+        "width": 225,
+        "height": 412
     },
 
     {
-        "title": "Santi Pietro e Paolo ",
-        "artist": "Guido Reni ",
-        "location": "Milano, Pinacoteca Nazionale di Brera ",
-        "date": "1605 ",
-        "url": "./img/Santi Pietro e Paolo.jpg"
+        "title": "Santi Pietro e Paolo",
+        "artist": "Guido Reni",
+        "location": "Milano, Pinacoteca Nazionale di Brera",
+        "date": "1605",
+        "url": "assets/img/SantiPietroEPaolo.jpg",
+        "width": 224,
+        "height": 328
     }
 
 ]

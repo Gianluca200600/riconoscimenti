@@ -1,3 +1,21 @@
-<app-buttons></app-buttons>
-<app-picture></app-picture>
-<app-answer></app-answer>
+<div class="max-w-4xl mx-auto p-4">
+
+    <app-bridge (imagesOutput)="onLoadUp($event)"> </app-bridge>
+
+    <div>
+        @if(imagesSignal()) {
+            <p class="text-center text-sm italic text-gray-300">
+                {{ imagesSignal()?.length }} immagini disponibili.
+            </p>
+        } @else {
+            <p class="text-center text-lg text-gray-100">
+                Nessuna immagine disponibile.
+            </p>
+        }
+    </div>
+
+    <app-buttons class="p-4" [images]="imagesSignal()" (selectedImage)="selectedImage = $event"> </app-buttons>
+    <app-picture class="p-4" [image]="selectedImage"> </app-picture>
+    <app-answer class="p-4" [image]="selectedImage"> </app-answer>
+
+</div>

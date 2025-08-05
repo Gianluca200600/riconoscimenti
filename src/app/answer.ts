@@ -1,7 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-
+import { Painting } from "./model/painting";
 
 @Component({
   selector: 'app-answer',
@@ -10,10 +10,11 @@ import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
   styleUrl: './answer.css'
 })
 export class Answer {
-faPaperPlane = faPaperPlane;
-
+  faPaperPlane = faPaperPlane;
+  image = input<[Painting, Boolean]>();
+  
   submitAnswer() {
-    throw new Error('Method not implemented.');
+    
   }
 
 }

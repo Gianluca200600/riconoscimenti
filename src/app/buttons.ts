@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { Image } from "./model/image";
+import { Component, input, output } from '@angular/core';
+import { Painting } from "./model/painting";
 
 @Component({
   selector: 'app-buttons',
@@ -9,25 +9,27 @@ import { Image } from "./model/image";
 })
 export class Buttons {
 
-  picture: Image;
-  pictures: Image[] = [];
+  images = input<Painting[]>();
+  selectedImage = output<[Painting,Boolean]>();
+  frameBooleean = true;
 
-  constructor() {
-    this.picture = new Image();
-    this.pictures.push(this.picture);
-  }
-
-  // Methods to handle button clicks
   newImageFunction() {
-    // Show a new image
-
+    if (this.images() && this.images()!.length > 0) {
+      const randomIndex = Math.floor(Math.random() * this.images()!.length);
+      const newImage = this.images()![randomIndex];
+      this.selectedImage.emit([newImage, this.frameBooleean]);
+    }
   }
+
   newFrameFunction() {
     // Show a new frame
   }
+
   wholeImageFunction() {
     // Show the whole image
+    this.frameBooleean = false;
   }
+
   answerFunction() {
     // Show the correct answer
   }

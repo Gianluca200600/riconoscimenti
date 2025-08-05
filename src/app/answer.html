@@ -1,9 +1,9 @@
-<section class="grid-cols-2 md:grid-cols-2 gap-2">
+<section class="flex justify-between space-x-2">
 
-    <input id="answerInput" type="text" class="w-4/5 text-white border-white rounded-md hover:cursor-pointer"
-        placeholder="Inserisci la risposta corretta" />
+    <input id="answerInput" type="text" class="w-4/5 p-2 text-gray-100 placeholder:italic border-grey-900 rounded-md hover:bg-gray-100 hover:text-gray-900"
+        placeholder="Inserisci la risposta corretta"/>
     
-        <button type="button" class="w-1/6 text-white border-white rounded-md hover:cursor-pointer" (click)="submitAnswer()">
+        <button type="button" class="w-1/6 p-2 text-gray-100 border-grey-900 rounded-md hover:bg-gray-100 hover:text-gray-900 hover:cursor-pointer" (click)="submitAnswer()">
         <fa-icon [icon]="faPaperPlane"></fa-icon>
     </button>
 
