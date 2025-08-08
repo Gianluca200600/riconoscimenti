@@ -1,0 +1,7 @@
+.score-box {
+  transition: background-color 0.5s ease;
+}
+
+.score-box.correct {
+  background-color: #22c55e; /* verde Tailwind ad esempio */
+}

@@ -1,10 +1,52 @@
 <section class="flex justify-between space-x-2">
 
-    <input id="answerInput" type="text" class="w-4/5 p-2 text-gray-100 placeholder:italic border-grey-900 rounded-md hover:bg-gray-100 hover:text-gray-900"
-        placeholder="Inserisci la risposta corretta"/>
-    
-        <button type="button" class="w-1/6 p-2 text-gray-100 border-grey-900 rounded-md hover:bg-gray-100 hover:text-gray-900 hover:cursor-pointer" (click)="submitAnswer()">
+    <div [class.correct]="highlightScore" class="score-box fixed top-4 right-4 bg-gray-900 text-white px-3 py-1 rounded-md shadow-lg z-20">
+        <h4 class="font-bold text-lg text-white text-center"> Punteggio </h4>
+        <p class="text-lg text-center text-white"> {{score()}} </p>
+    </div>
+
+    <input [formControl]="form" id="answerInput" type="text"
+        class="w-4/5 p-2 text-gray-100 placeholder:italic border-white rounded-md hover:bg-gray-100 hover:text-gray-900"
+        id="answer" name="answer" placeholder="Inserisci titolo o artista..." onfocus="this.value=''"/>
+
+    <button type="button"
+        class="w-1/6 p-2 text-gray-100 border-grey-900 rounded-md hover:bg-gray-100 hover:text-gray-900 hover:cursor-pointer"
+        (click)="onSubmit()">
         <fa-icon [icon]="faPaperPlane"></fa-icon>
     </button>
+
+    @if (windowBool || this.showAnswer()) {
+    <div class="fixed inset-0 bg-black/60 z-10 flex items-center justify-center">
+        <div class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+         z-10 bg-black border border-white p-2 rounded-md shadow-lg w-100">
+            <div>
+                <div>
+                    <button class="absolute top-2 right-2 bg-white text-black rounded-md p-1 hover:bg-gray-200"
+                        (click)="closeWindow()">
+                        <fa-icon [icon]="faX"></fa-icon>
+                    </button>
+                </div>
+            </div>
+            <div class="text-left text-white p-2">
+                <p>
+                    <span class="font-bold"> Titolo: </span>
+                    <span class="italic"> {{image()?.title}} </span>
+                </p>
+                <p>
+                    <span class="font-bold"> Artista: </span>
+                    <span class="italic"> {{image()?.artist}} </span>
+                </p>
+                <p>
+                    <span class="font-bold"> Data: </span>
+                    <span class="italic"> {{image()?.date}} </span>
+                </p>
+                <p>
+                    <span class="font-bold"> Luogo: </span>
+                    <span class="italic"> {{image()?.location}} </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    }
 
 </section>

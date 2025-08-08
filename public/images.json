@@ -4,139 +4,344 @@
         "artist": "Raffaello",
         "location": "Firenze, Galleria degli Uffizi",
         "date": "1504-1506",
-        "url": "assets/img/AutoritrattoDiRaffaelloSanzio.jpg",
-        "width": 300,
-        "height": 400
+        "url": "assets/img/AutoritrattoDiRaffaelloSanzio.jpg"
     },
-
     {
         "title": "Sposalizio di Maria Vergine",
         "artist": "Raffaello",
         "location": "Milano, Pinacoteca Nazionale di Brera",
         "date": "1504",
-        "url": "assets/img/SposalizioDiMariaVergine.jpg",
-        "width": 806,
-        "height": 1024
+        "url": "assets/img/SposalizioDiMariaVergine.jpg"
     },
-
     {
         "title": "Natività della Vergine",
         "artist": "Raffaello Vanni",
         "location": "Roma, Santa Maria della Pace",
         "date": "dopo il 1666",
-        "url": "assets/img/NativitàDellaVergine.jpg",
-        "width": 128,
-        "height": 93
+        "url": "assets/img/NativitàDellaVergine.jpg"
     },
-
     {
         "title": "Madonna di Pasadena",
         "artist": "Raffaello",
         "location": "Pasadena, Norton Simon Museum of Art",
         "date": "1503 ca.",
-        "url": "assets/img/MadonnaDiPasadena.jpg",
-        "width": 2182,
-        "height": 3000
+        "url": "assets/img/MadonnaDiPasadena.jpg"
     },
-
     {
         "title": "Sacra Famiglia con Santa Elisabetta, San Giovannino, e Angeli",
         "artist": "Raffaello",
         "location": "Parigi, Musée du Louvre",
         "date": "1518",
-        "url": "assets/img/SacraFamigliaConSantaElisabettaSanGiovanninoEAngeli.jpg",
-        "width": 693,
-        "height": 1024
+        "url": "assets/img/SacraFamigliaConSantaElisabettaSanGiovanninoEAngeli.jpg"
     },
-
     {
         "title": "Sacra Famiglia Canigiani",
         "artist": "Raffaello",
         "location": "Monaco di Baviera, Alte Pinakothek",
         "date": "1506-1507",
-        "url": "assets/img/SacraFamigliaCanigiani.jpg",
-        "width": 489,
-        "height": 599
+        "url": "assets/img/SacraFamigliaCanigiani.jpg"
     },
-
     {
         "title": "Madonna di Casa Santi",
         "artist": "Raffaello",
         "location": "Casa di Raffaello, Urbino",
         "date": "1498 ca.",
-        "url": "assets/img/MadonnaDiCasaSanti.jpg",
-        "width": 225,
-        "height": 317
+        "url": "assets/img/MadonnaDiCasaSanti.jpg"
     },
-
     {
         "title": "Incoronazione della Vergine e Quattro Santi",
         "artist": "Raffaello",
         "location": "Milano, Pinacoteca Nazionale di Brera",
         "date": "1504",
-        "url": "assets/img/IncoronazioneDellaVergineEQuattroSanti.jpg",
-        "width": 225,
-        "height": 292
+        "url": "assets/img/IncoronazioneDellaVergineEQuattroSanti.jpg"
     },
-
     {
         "title": "Ritratto di Beatrice Cenci",
         "artist": "Raffaello (poi Perugino)",
         "location": "Perugia, Chiesa di San Severo",
         "date": "1505-1508 ca.",
-        "url": "assets/img/RitrattoDiBeatriceCenci.jpg",
-        "width": 225,
-        "height": 299
+        "url": "assets/img/RitrattoDiBeatriceCenci.jpg"
     },
-
     {
         "title": "Assunzione della Vergine",
         "artist": "Guido Reni",
         "location": "Pieve di Cento",
         "date": "1600",
-        "url": "assets/img/AssunzioneDellaVergine.jpg",
-        "width": 225,
-        "height": 316
+        "url": "assets/img/AssunzioneDellaVergine.jpg"
     },
-
     {
         "title": "Santa Cecilia e Quattro Santi",
         "artist": "Guido Reni",
         "location": "Roma, Chiesa di San Luigi dei Francesi",
         "date": "1600",
-        "url": "assets/img/SantaCeciliaEQuattroSanti.jpg",
-        "width": 225,
-        "height": 325
+        "url": "assets/img/SantaCeciliaEQuattroSanti.jpg"
     },
-
     {
         "title": "Martirio di Santa Cecilia",
         "artist": "Guido Reni",
         "location": "Roma, Basilica di Santa Cecilia in Trastevere",
         "date": "1601",
-        "url": "assets/img/MartirioDiSantaCecilia.jpg",
-        "width": 45,
-        "height": 79
+        "url": "assets/img/MartirioDiSantaCecilia.jpg"
     },
-
     {
         "title": "Crocifissione di San Pietro",
         "artist": "Guido Reni",
         "location": "Roma, Pinacoteca Vaticana",
         "date": "1604-1605",
-        "url": "assets/img/CrocifissioneDiSanPietro.jpg",
-        "width": 225,
-        "height": 412
+        "url": "assets/img/CrocifissioneDiSanPietro.jpg"
     },
-
     {
         "title": "Santi Pietro e Paolo",
         "artist": "Guido Reni",
         "location": "Milano, Pinacoteca Nazionale di Brera",
         "date": "1605",
-        "url": "assets/img/SantiPietroEPaolo.jpg",
-        "width": 224,
-        "height": 328
-    }
+        "url": "assets/img/SantiPietroEPaolo.jpg"
+    },
+    {
+        "title": "Gian Galeazzo Visconti Incoronato nella Corte Celeste (da frontespizio Elogio Funebre)",
+        "artist": "Michelino da Besozzo",
+        "location": "Parigi",
+        "date": "1403",
+        "url": "assets/img/GianGaleazzoViscontiIncoronato.jpg"
+    },
 
+    {
+        "title": "Matrimonio Mistico di Santa Caterina di Alessandria con i Santi Giovanni Battista e Antonio Abate",
+        "artist": "Michelino da Besozzo",
+        "location": "Siena, Pinacoteca Nazionale",
+        "date": "1403-1410",
+        "url": "assets/img/MatrimonioMistico.jpg"
+    },
+
+    {
+        "title": "Sala delle Arti Liberali e dei Pianeti",
+        "artist": "Gentile da Fabriano",
+        "location": "Foligno, Palazzo Trinci",
+        "date": "1410",
+        "url": "assets/img/PalazzoTrinci.jpg"
+    },
+
+    {
+        "title": "Sala delle Arti Liberali e dei Pianeti",
+        "artist": "Gentile da Fabriano",
+        "location": "Foligno, Palazzo Trinci",
+        "date": "1410",
+        "url": "assets/img/PalazzoTrinci2.jpg"
+    },
+
+    {
+        "title": "Crocifissione",
+        "artist": "Gentile da Fabriano",
+        "location": "Milano, Pinacoteca Nazionale di Brera",
+        "date": "1410",
+        "url": "assets/img/CrocifissioneBrera.jpg"
+    },
+
+    {
+        "title": "Madonna col Bambino tra San Nicola, Caterina da Alessandria, e Donatore",
+        "artist": "Gentile da Fabriano",
+        "location": "Berlino",
+        "date": "1400",
+        "url": "assets/img/MadonnaConBambino.jpg"
+    },
+
+    {
+        "title": "Madonna con Bambino",
+        "artist": "Gentile da Fabriano",
+        "location": "Orvieto",
+        "date": "1425",
+        "url": "assets/img/MadonnaOrvieto.jpg"
+    },
+    
+    {
+        "title": "Adorazione dei Magi (Pala Strozzi)",
+        "artist": "Gentile da Fabriano",
+        "location": "Firenze, Galleria degli Uffizi",
+        "date": "1423",
+        "url": "assets/img/PalaStrozzi.jpg"
+    },
+    
+    {
+        "title": "Polittico di Valle Romita",
+        "artist": "Gentile da Fabriano",
+        "location": "Milano, Pinacoteca Nazionale di Brera",
+        "date": "1410",
+        "url": "assets/img/ValleRomita.jpg"
+    },
+    
+    {
+        "title": "Il Ladro alla Sinistra di Cristo",
+        "artist": "Robert Campin (Maestro di Flèmalle)",
+        "location": "",
+        "date": "1420-1440",
+        "url": "assets/img/Ladro.jpg"
+    },
+    
+    {
+        "title": "Altare Werl",
+        "artist": "Robert Campin (Maestro di Flèmalle)",
+        "location": "Madrid, El Prado",
+        "date": "1438",
+        "url": "assets/img/AltareWerl.jpg"
+    },
+    
+    {
+        "title": "Altare Werl",
+        "artist": "Robert Campin (Maestro di Flèmalle)",
+        "location": "Madrid, El Prado",
+        "date": "1438",
+        "url": "assets/img/AltareWerl2.jpg"
+    },
+    
+    {
+        "title": "Annunciazione",
+        "artist": "Robert Campin (Maestro di Flèmalle)",
+        "location": "Tournai",
+        "date": "1427-1432",
+        "url": "assets/img/Annunciazione.jpg"
+    },
+    
+    {
+        "title": "Trinità",
+        "artist": "Robert Campin (Maestro di Flèmalle)",
+        "location": "Francoforte",
+        "date": "1420 ca.",
+        "url": "assets/img/Trinita.jpg"
+    },
+    
+    {
+        "title": "Adorazione del Bambino",
+        "artist": "Robert Campin (Maestro di Flèmalle)",
+        "location": "Digione",
+        "date": "1425",
+        "url": "assets/img/Adorazione.jpg"
+    },
+    
+    {
+        "title": "Annunciazione di Merode",
+        "artist": "Robert Campin (Maestro di Flèmalle)",
+        "location": "New York, Metropolitan Museum",
+        "date": "1430",
+        "url": "assets/img/AnnunciazioneMerode.jpg"
+    },
+    
+    {
+        "title": "Crocifissione",
+        "artist": "Robert Campin (Maestro di Flèmalle)",
+        "location": "Berlino",
+        "date": "1425",
+        "url": "assets/img/Crocifissione.jpg"
+    },
+    
+    {
+        "title": "Madonna del Parafuoco",
+        "artist": "Robert Campin (Maestro di Flèmalle)",
+        "location": "Londra",
+        "date": "1430",
+        "url": "assets/img/MadonnaDelParafuoco.jpg"
+    },
+    
+    {
+        "title": "Ritratto di Fanciulla",
+        "artist": "Robert Campin (Maestro di Flèmalle)",
+        "location": "Londra, National Gallery",
+        "date": "1430-1435",
+        "url": "assets/img/Fanciulla.jpg"
+    },
+    
+    {
+        "title": "Ritratto di Uomo",
+        "artist": "Robert Campin (Maestro di Flèmalle)",
+        "location": "Londra, National Gallery",
+        "date": "1430-1435",
+        "url": "assets/img/Uomo.jpg"
+    },
+    
+    {
+        "title": "San Giacomo e Santa Chiara",
+        "artist": "Robert Campin (Maestro di Flèmalle)",
+        "location": "Madrid, El Prado",
+        "date": "1420",
+        "url": "assets/img/GiacomoEChiara.jpg"
+    },
+    
+    {
+        "title": "Santa Veronica",
+        "artist": "Robert Campin (Maestro di Flèmalle)",
+        "location": "Francoforte",
+        "date": "1410",
+        "url": "assets/img/SantaVeronica.jpg"
+    },
+    
+    {
+        "title": "Sposalizio della Vergine",
+        "artist": "Robert Campin (Maestro di Flèmalle)",
+        "location": "Madrid, El Prado",
+        "date": "1420",
+        "url": "assets/img/Sposalizio.jpg"
+    },
+    
+    {
+        "title": "San Pietro",
+        "artist": "Brunelleschi o Donatello",
+        "location": "Orsanmichele",
+        "date": "1412-1415",
+        "url": "assets/img/SanPietro.jpg"
+    },
+    
+    {
+        "title": "Cappella Barbadori",
+        "artist": "Brunelleschi",
+        "location": "Firenze, Santa Felicita",
+        "date": "1420",
+        "url": "assets/img/Barbadori.jpg"
+    },
+    
+    {
+        "title": "Cappella Pazzi in Santa Croce",
+        "artist": "Brunelleschi",
+        "location": "Firenze, Santa Croce",
+        "date": "1429",
+        "url": "assets/img/CappellaPazzi.jpg"
+    },
+    
+    {
+        "title": "Cappella Pazzi in Santa Croce",
+        "artist": "Luca della Robbia",
+        "location": "Firenze, Santa Croce",
+        "date": "1429",
+        "url": "assets/img/CappellaPazzi2.jpg"
+    },
+    
+    {
+        "title": "Crocifisso di Santa Maria Novella",
+        "artist": "Brunelleschi",
+        "location": "Firenze, Santa Maria Novella",
+        "date": "1420-1425",
+        "url": "assets/img/CrocifissoSMN.jpg"
+    },
+    
+    {
+        "title": "Cupola di Santa Maria del Fiore",
+        "artist": "Brunelleschi",
+        "location": "Firenze, Santa Maria del Fiore",
+        "date": "1423-1438",
+        "url": "assets/img/Cupola.jpg"
+    },
+    
+    {
+        "title": "Profeti e Padri della Chiesa (Altare di San Jacopo)",
+        "artist": "Brunelleschi",
+        "location": "Pistoia",
+        "date": "1400 ca.",
+        "url": "assets/img/AltareJacopo.jpg"
+    },
+    
+    {
+        "title": "Rotonda degli Angeli",
+        "artist": "Brunelleschi",
+        "location": "Firenze",
+        "date": "1434",
+        "url": "assets/img/RotondaAngeli.jpg"
+    }
 ]

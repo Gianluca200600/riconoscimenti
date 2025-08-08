@@ -10,28 +10,19 @@ import { Painting } from "./model/painting";
 export class Buttons {
 
   images = input<Painting[]>();
-  selectedImage = output<[Painting,Boolean]>();
-  frameBooleean = true;
+  selectedImage = output<Painting>();
+  seeAnswer = output<Boolean>();
 
   newImageFunction() {
     if (this.images() && this.images()!.length > 0) {
       const randomIndex = Math.floor(Math.random() * this.images()!.length);
       const newImage = this.images()![randomIndex];
-      this.selectedImage.emit([newImage, this.frameBooleean]);
+      this.selectedImage.emit(newImage);
     }
   }
 
-  newFrameFunction() {
-    // Show a new frame
-  }
-
-  wholeImageFunction() {
-    // Show the whole image
-    this.frameBooleean = false;
-  }
-
   answerFunction() {
-    // Show the correct answer
+    this.seeAnswer.emit(true);
   }
 
 }

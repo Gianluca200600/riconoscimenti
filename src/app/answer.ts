@@ -1,20 +1,73 @@
-import { Component, input } from '@angular/core';
+import { Component, input, signal } from '@angular/core';
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import { faPaperPlane, faX } from "@fortawesome/free-solid-svg-icons";
 import { Painting } from "./model/painting";
+import { FormControl, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-answer',
-  imports: [FontAwesomeModule],
+  standalone: true,
+  imports: [FontAwesomeModule, ReactiveFormsModule],
   templateUrl: './answer.html',
-  styleUrl: './answer.css'
+  styleUrls: ['./answer.css']
 })
 export class Answer {
+
   faPaperPlane = faPaperPlane;
-  image = input<[Painting, Boolean]>();
-  
-  submitAnswer() {
-    
+  faX = faX;
+
+  image = input<Painting>();
+  showAnswer = input<Boolean>();
+  score = signal(0);
+
+  form = new FormControl('');
+  bool = false;
+  windowBool = false;
+  highlightScore = false;
+
+  private normalize(s?: string | null) {
+    return (s ?? '').toString().replace(/\s*\(.*?\)\s*/g, '').trim().toLowerCase();
+  }
+
+  checkAnswer(answerInput: string | null): [boolean, number] {
+    const answer = this.normalize(answerInput);
+    if (!answer) return [false, 0];
+
+    const title = this.normalize(this.image()?.title);
+    const artist = this.normalize(this.image()?.artist);
+    let value = 0;
+
+    if ((title.includes(answer) && title !== answer) ||
+      (artist.includes(answer) && artist !== answer)) {
+      value = 0.5;
+    }
+    if (title === answer || artist === answer) {
+      value = 1;
+    }
+
+    return [value > 0, value];
+  }
+
+  onSubmit() {
+    const [isCorrect, value] = this.checkAnswer(this.form.value);
+
+    this.bool = isCorrect;
+    if (isCorrect) {
+      this.score.update(s => s + value);
+      this.highlightScore = true;
+
+      // Rimuove l’effetto dopo 1 secondo (1000ms)
+      setTimeout(() => {
+        this.highlightScore = false;
+      }, 1000);
+    }
+
+    this.windowBool = true;
+  }
+
+  closeWindow() {
+    this.windowBool = false;
   }
 
 }
+

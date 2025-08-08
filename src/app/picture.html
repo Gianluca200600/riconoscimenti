@@ -1,18 +1,6 @@
-@if(image()![1]) {
-
-    <!-- frameBoolean TRUE -->
-    <section class="w-[350px] h-[350px] mx-auto flex items-center justify-center rounded-full overflow-hidden"
-        [style.background]="partialImage()" style="background-repeat: no-repeat; background-size: auto;">
-    </section>
-
-} @else  {
-    
-    <!-- frameBoolean FALSE -->
-    <section class="w-[350px] h-[350px] mx-auto flex items-center justify-center">
-        @if(image()) {
-            <img [src]="image()![0]!.url" [alt]="image()![0]!.title"
-                class="w-full h-full aspect-square h-auto rounded-[50%] object-cover">
-        }
-    </section>
-
-}
+<section class="w-[350px] h-[350px] mx-auto flex items-center justify-center">
+    @if(image()) {
+        <img [src]="image()!.url" [alt]="image()!.title"
+        class="w-full h-full aspect-square h-auto rounded-[50%] object-cover">
+    }
+</section>
