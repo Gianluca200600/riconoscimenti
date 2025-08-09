@@ -23,7 +23,6 @@ export class Bridge {
   onCreation() {
     this.images$.subscribe(
       data => {
-        console.log('Emitting imagesOutput', data);
         this.imagesOutput.emit(data);
       }
     )

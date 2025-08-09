@@ -14,8 +14,8 @@
         }
     </div>
 
-    <app-buttons class="p-4" [images]="imagesSignal()" (selectedImage)="selectedImage = $event" (seeAnswer)="showAnswer = $event"> </app-buttons>
+    <app-buttons class="p-4" [images]="imagesSignal()" (selectedImage)="selectedImage = $event"> </app-buttons>
     <app-picture class="p-4" [image]="selectedImage"> </app-picture>
-    <app-answer class="p-4" [image]="selectedImage" [showAnswer]="showAnswer"> </app-answer>
+    <app-answer class="p-4" [image]="selectedImage"> </app-answer>
 
 </div>

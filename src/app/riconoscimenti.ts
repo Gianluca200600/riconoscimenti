@@ -15,7 +15,6 @@ export class Riconoscimenti {
 
   imagesSignal = signal<Painting[] | undefined>(undefined);
   selectedImage: Painting | undefined;
-  showAnswer: Boolean | undefined;
 
   onLoadUp(images: Painting[]) {
     this.imagesSignal.set(images);

@@ -17,7 +17,6 @@ export class Answer {
   faX = faX;
 
   image = input<Painting>();
-  showAnswer = input<Boolean>();
   score = signal(0);
 
   form = new FormControl('');
@@ -56,7 +55,6 @@ export class Answer {
       this.score.update(s => s + value);
       this.highlightScore = true;
 
-      // Rimuove l’effetto dopo 1 secondo (1000ms)
       setTimeout(() => {
         this.highlightScore = false;
       }, 1000);

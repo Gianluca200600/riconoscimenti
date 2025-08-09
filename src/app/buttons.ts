@@ -11,7 +11,6 @@ export class Buttons {
 
   images = input<Painting[]>();
   selectedImage = output<Painting>();
-  seeAnswer = output<Boolean>();
 
   newImageFunction() {
     if (this.images() && this.images()!.length > 0) {
@@ -19,10 +18,6 @@ export class Buttons {
       const newImage = this.images()![randomIndex];
       this.selectedImage.emit(newImage);
     }
-  }
-
-  answerFunction() {
-    this.seeAnswer.emit(true);
   }
 
 }
