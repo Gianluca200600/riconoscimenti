@@ -29,19 +29,30 @@ export class Answer {
   }
 
   checkAnswer(answerInput: string | null): [boolean, number] {
-    const answer = this.normalize(answerInput);
-    if (!answer) return [false, 0];
 
+    const answer = this.normalize(answerInput);
     const title = this.normalize(this.image()?.title);
     const artist = this.normalize(this.image()?.artist);
     let value = 0;
 
-    if ((title.includes(answer) && title !== answer) ||
-      (artist.includes(answer) && artist !== answer)) {
-      value = 0.5;
+    if (!answer) return [false, 0];
+
+    if (artist.includes("&") && !answer.includes("&")) {
+      const artists = artist.split("&").map(a => a.trim());
+      if (artists.includes(answer)) {
+        value = 1;
+      } else if (artists.some(a => answer.includes(a) && a !== answer)) {
+        value = 0.5;
+      }
     }
-    if (title === answer || artist === answer) {
-      value = 1;
+    else {
+      if ((title.includes(answer) && title !== answer) ||
+        (artist.includes(answer) && artist !== answer)) {
+        value = 0.5;
+      }
+      if (title === answer || artist === answer) {
+        value = 1;
+      }
     }
 
     return [value > 0, value];
