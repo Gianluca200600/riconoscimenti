@@ -37,7 +37,7 @@ export class Answer {
 
     if (!answer) return [false, 0];
 
-    if (artist.includes("&") && !answer.includes("&")) {
+    if (artist.includes("&")) {
       const artists = artist.split("&").map(a => a.trim());
       if (artists.includes(answer)) {
         value = 1;
